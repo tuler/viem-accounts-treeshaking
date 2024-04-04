@@ -1,0 +1,21 @@
+{
+  "name": "viem-accounts-treeshaking",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.mjs",
+    "run": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Danilo Tuler",
+  "license": "ISC",
+  "dependencies": {
+    "viem": "^2.9.9"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "typescript": "^5.4.3"
+  },
+  "type": "module"
+}
